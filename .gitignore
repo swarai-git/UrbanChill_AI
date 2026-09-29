@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+/lib/
+/lib64/
+!**/src/lib/**
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# DuckDB
+*.duckdb
+*.duckdb.wal
+
+# Node & Next.js
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+dist/
+build/
+.npm/
+*.tsbuildinfo
+next-env.d.ts
+
+# Pytest & Virtualenvs
+.pytest_cache/
+**/.pytest_cache/
+.venv/
+**/.venv/
+env/
+**/env/
+
+# Local Template & Python Environments
+ecmenextjs-127/
+venv/
+**/venv/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS
+.DS_Store
+
