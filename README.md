@@ -6,19 +6,19 @@ Every value in the platform is explicitly tagged **Observed** (measured directly
 
 ## 🌟 Key Features
 
-### Heat Module
-- **Interactive 3D Earth Visualization:** Built with CesiumJS, allowing global city search and realistic 3D globe exploration.
-- **Satellite Image Processing:** Integrates with Google Earth Engine to retrieve Landsat-8 and Sentinel-2 datasets.
-- **Environmental Indicators:** Calculates Land Surface Temperature (LST) and Normalized Difference Vegetation Index (NDVI).
-- **Heat-Risk Prediction:** Random Forest model predicts urban heat-risk severity from spatial features.
-- **Cooling Simulator ("What-If"):** Evaluates the impact of tree planting, reflective/white roofs, ponds & water bodies, and neighborhood parks on ground temperature, greenery index, and heat risk, with per-cell projected cooling.
-
 ### Air Quality Module
 - **5-Day NO₂ Forecast:** Predicts air-quality levels (NO₂) for a defined urban area over the coming days, using Sentinel-5P data and wind-driven dispersion modeling.
 - **Source Attribution:** Estimates the likely contribution of traffic, industrial activity, weather, and residential sources to pollution levels, with stated assumptions displayed alongside every estimate.
 - **Pollution Simulator:** Compares at least three interventions — traffic restriction, industrial control, and a comprehensive combined scenario — showing projected pollution reduction for each before any action is taken.
 - **Pollution Hotspot Map:** NO₂ layer with color-coded hotspot glow (Good / Moderate / High / Critical), plus a dedicated NO₂ Grid view for cell-level detail.
 - **Historical Validation:** Compares model predictions against real observed data across multiple independent periods (e.g. seasonal windows and a full annual period), not just a live snapshot.
+
+### Heat Module
+- **Interactive 3D Earth Visualization:** Built with CesiumJS, allowing global city search and realistic 3D globe exploration.
+- **Satellite Image Processing:** Integrates with Google Earth Engine to retrieve Landsat-8 and Sentinel-2 datasets.
+- **Environmental Indicators:** Calculates Land Surface Temperature (LST) and Normalized Difference Vegetation Index (NDVI).
+- **Heat-Risk Prediction:** Random Forest model predicts urban heat-risk severity from spatial features.
+- **Cooling Simulator ("What-If"):** Evaluates the impact of tree planting, reflective/white roofs, ponds & water bodies, and neighborhood parks on ground temperature, greenery index, and heat risk, with per-cell projected cooling.
 
 ### Shared Platform Features
 - **Spatial Analytics Dashboard:** Charts and insights comparing cities, heat distribution, air quality, and green cover.
